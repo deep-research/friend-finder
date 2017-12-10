@@ -34,7 +34,7 @@
 		<hr>
 
 		<h3><strong>Question 1</strong></h3>
-		<h4>Your mind is always buzzing with unexplored ideas and plans.</h4>
+		<h4>You place your trust in powerful institutions.</h4>
 	 	<select data-placeholder="" class="chosen-select" id="q1">
 	 		<option value=""></option>
             <option value="1">1 (Strongly Disagree)</option>
@@ -45,7 +45,7 @@
       	</select>
 
 		<h3><strong>Question 2</strong></h3>
-		<h4>Generally speaking, you rely more on your experience than your imagination.</h4>
+		<h4>You see beauty in the darkness.</h4>
 	 	<select data-placeholder="" class="chosen-select" id="q2">
 	 		<option value=""></option>
             <option value="1">1 (Strongly Disagree)</option>
@@ -57,7 +57,7 @@
 
 
 		<h3><strong>Question 3</strong></h3>
-		<h4>You find it easy to stay relaxed and focused even when there is some pressure.</h4>
+		<h4>It is usually better to be practical than idealistic</h4>
 	 	<select data-placeholder="" class="chosen-select" id="q3">
 	 		<option value=""></option>
             <option value="1">1 (Strongly Disagree)</option>
@@ -172,7 +172,7 @@
 	    <div class="modal-content">
 	      <div class="modal-header">
 	        <button type="button" class="close" data-dismiss="modal">&times;</button>
-	        <h2 class="modal-title"><strong>Best Match</strong></h2>
+	        <h2 class="modal-title"><strong>Your Match</strong></h2>
 	      </div>
 	      <div class="modal-body">
 	        <h2 id="matchName"></h2>
@@ -236,6 +236,9 @@
 			// Reset the forms
 			$(".chosen-select").val('').trigger("chosen:updated");
 			$('input:text').val("")
+
+			// Scroll to the top
+			$('html, body').animate({ scrollTop: 0 }, 'fast');
 
 	    	// Grab the URL of the website
 	    	var currentURL = window.location.origin;
