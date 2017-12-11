@@ -16,4 +16,4 @@ An online dating application powered by Node.js and Express
 * Change directory to `friend-finder` in a command-line interpreter.
 * Run the `npm install` command to prepare the necessary NPM packages.
 * Entering `node server.js` into your command line will start the server if you are in the `friend-finder` directory.
-* Go to localhost:3000 in a web browser of your choice when your server on.
+* Go to [localhost:3000](localhost:3000) in a web browser of your choice when your server on.
