@@ -4,7 +4,7 @@ An online dating application powered by Node.js and Express
 
 ### Prerequisites
 
-* The project can be viewed on this website:
+* The project can be viewed on the following website:
 * Or to install the program you will need the following:
   * A command-line interpreter.
   * An updated Node.js installation.
